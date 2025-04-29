@@ -32,7 +32,9 @@ const fetchList = async ({
     if (experience.length) params.set("experience", experience.join(","));
     if (fees.length) params.set("fees", fees.join(","));
 
-    const url = `http://localhost:3000/api/doctor?${params.toString()}`;
+    const url = `${
+      process.env.NEXT_PUBLIC_URL
+    }/api/doctor?${params.toString()}`;
 
     const res = await fetch(url, {
       headers: {
