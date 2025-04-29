@@ -5,9 +5,7 @@ import { ListPagination } from "@/components/Pagination";
 import { IDoctor } from "@/models/model";
 
 interface HomeProps {
-  searchParams: {
-    [key: string]: string | undefined;
-  };
+  searchParams: Promise<{ [key: string]: string | undefined }>;
 }
 
 type FilterOptions = {

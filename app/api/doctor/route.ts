@@ -43,6 +43,7 @@ export async function GET(req: Request) {
     const feeRanges = searchParams.get("fees");
     const consultTypes = searchParams.get("consultTypes")?.toLocaleLowerCase();
     const limit = 5;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const query: any = {};
 
     console.log(consultTypes);
