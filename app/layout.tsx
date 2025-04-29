@@ -39,7 +39,7 @@ export const metadata: Metadata = {
       "Apollo 247 | Clone - Book Appointment Online with General Physician & Internal Medicine Doctors near you | Apollo 247",
     description:
       "General Physician & Internal Medicine - Consult experienced general physicians and internal medicine doctors online at Apollo 247 for diagnosis and treatment of common illnesses, chronic conditions, and preventive care. Book an appointment today.",
-    url: "https://doctor-listing.vercel.app/",
+    url: "https://apollo-clone-ten.vercel.app/",
     images: ["https://www.apollo247.com/online-doctor-consultation.jpg"],
   },
 
